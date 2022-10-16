@@ -947,7 +947,7 @@
 
         @section('moar_scripts')
             <script>
-                $(".persiandatepicker").persianDatepicker();
+                $(".persiandatepicker").persianDatepicker({showGregorianDate: true});
             </script>
         @show
 
